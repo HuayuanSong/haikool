@@ -1,0 +1,3 @@
+# Python vers. 3.9.6
+gradio==4.41.0
+huggingface_hub==0.24.5
