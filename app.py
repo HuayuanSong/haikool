@@ -57,7 +57,7 @@ class HaikuGenerator:
             gr.HTML("""
                 <center><h1 style="color:#C73E3A">HaiKool - Haiku Poem and Image Generator</h1></center>""")
             gr.HTML("""
-                <center><h6 style="color:#C73E3A">Generate a Haiku poem and an image based on it</h6></center>""")
+                <center><h6 style="color:#C73E3A">Generate a Haiku poem and an image based on it - Please note that loading time can be up to 1 minute.</h6></center>""")
             
             with gr.Column(elem_id="col-container"):
                 haiku_output = gr.Textbox(label="Generated Haiku", interactive=False)
