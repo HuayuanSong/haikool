@@ -1,2 +1,2 @@
-# haikool
- HaiKool - a Haiku Poem and Image Generator
+# HaiKool
+A Gradio-based GenAI web app that I made for generating Haiku poems based on user prompt/specs using a fine-tuned version of the Mistral 7B model. The poem is fed to Stable Diffusion, which creates an image based on user preference. Models are called via Hugging Face API. The application can be publicly found on Hugging Face Spaces: https://huggingface.co/spaces/huathedev/haikool-haiku-poem-image-generator
